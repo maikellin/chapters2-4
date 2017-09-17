@@ -10,6 +10,7 @@ r = .08
 #t is number of year money is compounded for
 t = float(input("Enter the number of years: "))
 
-a = p*(1+r/n)**(n*t)
+#the following line has an error
+a = p(1+r/n)**(n*t) 
 
 print("Amount after interest is: "+str(a))
